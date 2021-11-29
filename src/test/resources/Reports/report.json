@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify the product in Flipkart",
+        "description": "",
+        "id": "verify-the-flipkart-browser;verify-the-product-in-flipkart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10126106600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be in Login page of Flipkart and verified \"9159157333\",\"Aadhithyacr18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9159157333\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Aadhithyacr18\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitionCloud.userShouldBeInLoginPageOfFlipkartAndVerified(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4997945800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should search Electronics and select TVs \u0026 Appliances",
+            "match": {
+              "location": "StepDefinitionCloud.userShouldSearchElectronicsAndSelectTVsAppliances()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4172059100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should select any AC  add the AC in the cart add two quatity and print the discount ,Total amount",
+            "match": {
+              "location": "StepDefinitionCloud.userShouldSelectAnyACAddTheACInTheCartAddTwoQuatityAndPrintTheDiscountTotalAmount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4369868000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should place the order and user should navigate to My cart page",
+            "match": {
+              "location": "StepDefinitionCloud.userShouldPlaceTheOrderAndUserShouldNavigateToMyCartPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2154235300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should remove the orders",
+            "match": {
+              "location": "StepDefinitionCloud.userShouldRemoveTheOrders()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Flipkart Browser",
+    "description": "",
+    "id": "verify-the-flipkart-browser",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/Cloud.feature",
+    "tags": []
+  }
+]
